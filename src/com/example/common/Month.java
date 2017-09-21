@@ -3,7 +3,7 @@ package com.example.common;
 public enum Month {
 
     JANUARY ("January"),
-    FEBRAURT ("Febraury"),
+    FEBRUARY ("February"),
     MARCH ("March"),
     APRIL ("April"),
     MAY ("May"),
@@ -20,4 +20,9 @@ public enum Month {
     Month(String englishName) {
         this.englishName = englishName;
     }
+
+    public String getEnglishName() {
+        return englishName;
+    }
 }
+
